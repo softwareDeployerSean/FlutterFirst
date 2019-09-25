@@ -77,3 +77,14 @@ class D extends A with B, C {}
 //枚举,用于有限个确定的数据
 
 enum Season { Sping, Summer, Autumn, Winner }
+
+//泛型，其实就是一个定义 一个使用 没啥好说的
+
+class Generic<T> {//定义
+  T termibal;//使用
+  List list = List();
+
+  put(T t) {
+    list.add(t);
+  }
+}
